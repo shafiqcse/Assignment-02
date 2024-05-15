@@ -45,7 +45,12 @@ public function getAvailableCopies() {
 
  // TODO: Add borrowBook method
  public function borrowBook() {
+    if ($this->availableCopies > 0) {
      $this -> availableCopies--;
+     return true;
+    } else {
+     throw new Exception('Book not available');
+    }
  }
  
 
