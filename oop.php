@@ -126,9 +126,9 @@ $Member2->borrowBook($Book2);
 
 // TODO: Print Available Copies with their names:
 
-echo "Available Copies of " . $Book1->getTitle() . ": " . $Book1->getAvailableCopies() . "\n";
+echo "Available Copies of " ." '". $Book1->getTitle(). "'". ": " . $Book1->getAvailableCopies() . "\n";
 echo "<br>";
-echo "Available Copies of " . $Book2->getTitle() . ": " . $Book2->getAvailableCopies();
+echo "Available Copies of " . " '". $Book2->getTitle() . "'". ": " . $Book2->getAvailableCopies();
 
 
 ?>
