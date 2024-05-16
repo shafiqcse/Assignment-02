@@ -22,7 +22,7 @@ foreach ($strings as $value) {
             $count++;
         }
     }
-    echo "Original String: " , "$value , " . "Vowels Count: " . "$count," ." Reversed String: " . strrev($value) . "\n"." <br>";
+    echo "Original String: " , "$value , " . "Vowels Count: " . "$count," ." Reversed String: " . strrev($value) . "\n";
     
 }
 // Your Output must look like this:
